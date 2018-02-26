@@ -14,11 +14,12 @@ $ npm i react-svg-raw
 
 ## Usage
 ```jsx
+import React from "react";
 import SVG from "react-svg-raw";
 
 export default () => (
   <main>
-    <SVG className="foo" src={"<svg></svg>"}/>
+    <SVG src={"<svg></svg>"}/>
   </main>
 )
 
