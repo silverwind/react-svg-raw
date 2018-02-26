@@ -1,6 +1,6 @@
 {
   "name": "react-svg-raw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Component for wrapper-less inline SVGs",
   "author": "silverwind",
   "repository": "silverwind/react-svg-raw",
