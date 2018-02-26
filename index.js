@@ -22,7 +22,6 @@ export default class SVG extends React.PureComponent {
     // copy attributes from the react component
     Object.keys(this.props).forEach(prop => {
       if (prop === "src") return;
-      if (prop === "class") prop = "className";
       attrs[prop] = this.props[prop];
     });
 
